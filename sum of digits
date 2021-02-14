@@ -11,7 +11,7 @@ int sum_of_digit(int n)
  
 int main() 
 { 
-    int num;
+    int num=1234;
     printf("Input number: ");
     scanf("%d",&num);
     int result = sum_of_digit(num); //calling function
